@@ -1,0 +1,25 @@
+{
+	"name": "theme-antibrand",
+	"displayName": "%displayName%",
+	"description": "%description%",
+	"version": "1.0.0",
+	"publisher": "vscode",
+	"license": "",
+	"engines": {
+		"vscode": "*"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "antibrand dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/dark.json"
+			},
+			{
+				"label": "antibrand light",
+				"uiTheme": "vs",
+				"path": "./themes/light.json"
+			}
+		]
+	}
+}
